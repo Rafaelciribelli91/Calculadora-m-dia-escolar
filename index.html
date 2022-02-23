@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');</style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            
+            <div class="title">
+                <h2>Calculadora Média Escolar</h2>
+            </div>
+
+            <div class="studentName">
+                    <label for="studentName">Nome do aluno:</label>
+                    <input type="text" name="studentName" id="studentName">                
+            </div>
+
+            <div class="subjects">
+                    <label for="subjects">Matéria:</label>
+                    <select name="subjects" id="subjects">
+                        <option value="portuguese">Português</option>
+                        <option value="math">Matemática</option>
+                        <option value="phisycal">Física</option>
+                        <option value="geograph">Geografia</option>
+                        <option value="biology">Biologia</option>
+                    </select>
+            </div>
+
+            <div class="proof">
+                    <label for="proofone">Prova 1:</label>
+                    <input type="number" name="proofone" id="proofone">
+            </div>
+
+            <div class="proof">               
+                    <label for="prooftwo">Prova 2:</label>
+                    <input type="number" name="prooftwo" id="prooftwo">                
+            </div>
+
+            <div class="proof">                
+                    <label for="proofthree">Prova 3:</label>
+                    <input type="number" name="proofthree" id="proofthree">                
+            </div>
+
+            <div class="proof">                
+                    <label for="prooffour">Prova 4:</label>
+                    <input type="number" name="prooffour" id="prooffour">                
+            </div>
+
+            <div>
+                    <button onclick="calcMedia()" id="calcular">Calcular</button>                
+            </div>
+
+            <div class="result" id="result"></div>
+            
+        </div>
+    </main>        
+
+
+    <script src="main.js"></script>
+</body>
+</html>
