@@ -16,9 +16,9 @@ function calcMedia() {
     let condição = ""
 
     if(calcaverage < 70) {
-        condição = "reprovado"
+        condição = "reprovado(a)"
     } else {
-        condição = "aprovado"
+        condição = "aprovado(a)"
     } 
     
     result.textContent = "Sua média é " + calcaverage + ". Você está " + condição
